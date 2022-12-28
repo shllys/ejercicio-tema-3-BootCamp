@@ -1,0 +1,11 @@
+public class suma {
+    public static void main(String[] arg) {
+        sum( 10, 20, 50);
+    }
+    public static void sum(int a, int b, int c) {
+    
+        int resultado;
+        resultado = a + b + c;
+        System.out.println(resultado);
+    }
+}
